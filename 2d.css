@@ -1,0 +1,56 @@
+body{
+    background-color: black;
+}
+.Apple{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #445760;
+}
+.Banana{
+    font-family: 851テガキカクット ;
+    color: #9CDCFE;
+    text-decoration: none;
+    list-style: none;
+}
+.Grape{
+    padding: 10px 30px;
+    color: #9CDCFE;
+    border-width: 0px 0px 0px 2px;
+    border-style: solid;
+}
+main{
+    display: flex;
+    background-color: #1E2026;
+}
+.sidebar{
+    width: 300px;
+    min-height:100vh;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+}
+.sidebarimg{
+    width: 300px;
+    border-width: 0px 0px 2px 0px;
+    border-style: solid;
+    margin-bottom: 10px;
+}
+.explanation{
+    text-align: center;
+    line-height: 25px;
+    font-family: "Sawarabi Mincho";
+}
+.explanation h1{
+    font-size: 30px;    
+}
+
+.object{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.object_image{
+    width: 250px;
+    height: 250px;
+}

@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+/*戻る*/
+.howtoback{
+    display: flex;
+    justify-content: flex-start;
+}           
+.howtoback a{
+    color: black;
+    text-decoration: none;
+}
+.browseback{
+    border: 0;
+    padding: 10px 30px;
+}
+/*進む*/
+.howtonext{
+    display: flex;
+    justify-content: flex-end;
+}           
+.howtonext a{
+    color: black;
+    text-decoration: none;
+}
+.browsenext{
+    border: 0;
+    padding: 10px 30px;
+}
+/*-------------------------------------------*/
+.explanation{
+    margin: auto;
+}
+.gototaichi{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: "Sawarabi Mincho";
+    background-color: cadetblue;
+}
+.gototaichi h1{
+    margin-right: 100px;
+    padding: 50px;
+}
+.gototaichi p{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.mainimage{
+    width: 100%;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
